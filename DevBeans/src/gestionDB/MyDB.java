@@ -10,7 +10,7 @@ public class MyDB {
 	private static String mySqlDB = "sqletud.univ-mlv.fr/lfeltz_db";
 	private static String dbms = "mysql";
 	private static String user = "lfeltz";
-	private static String password = "Wuunoi6q";
+	private static String password = "mdp";
 	
 	private Connection conn;
 	private Statement st;
