@@ -45,7 +45,7 @@ public class CreationTable
 			db.executeUpdate(createOPERATION);		
 			db.close();
 		} catch (TraitementException e) {
-			MessagesDErreurs.getMessageDerreur(e.getMessage());
+			System.out.println(MessagesDErreurs.getMessageDerreur(e.getMessage()));
 		}
 	}
 }
